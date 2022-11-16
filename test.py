@@ -1,6 +1,8 @@
 import ipaddress
 
 
+
+
 #print('hi')
 text = 'раз два три'
 for i in text:
@@ -10,3 +12,7 @@ for i in text:
         print('символ ', i )
     else:
         print(i)
+'''
+
+
+def configure_int(int_name, ip, )

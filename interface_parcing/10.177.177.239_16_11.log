@@ -1,0 +1,2368 @@
+﻿
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (C) 2002-2019, Cisco and/or its affiliates.
+All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under their own
+licenses, such as open source.  This software is provided "as is," and unless
+otherwise stated, there is no warranty, express or implied, including but not
+limited to warranties of merchantability and fitness for a particular purpose.
+Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or 
+GNU General Public License (GPL) version 3.0  or the GNU
+Lesser General Public License (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+MSK-LES41-DC-CORE-1-9300# sh int ethernet1/1-52
+Ethernet1/1 is up
+admin state is up, Dedicated Interface
+  Belongs to Po13
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb0 (bia 70ea.1a35.ccb0)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 9697472 bits/sec, 1324 packets/sec
+    30 seconds output rate 28522288 bits/sec, 3691 packets/sec
+    input rate 9.70 Mbps, 1.32 Kpps; output rate 28.52 Mbps, 3.69 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 6318056 bits/sec, 920 packets/sec
+    300 seconds output rate 380400032 bits/sec, 10407 packets/sec
+    input rate 6.32 Mbps, 920 pps; output rate 380.40 Mbps, 10.41 Kpps
+  RX
+    1295295 unicast packets  1645 multicast packets  3 broadcast packets
+    1296943 input packets  1111035178 bytes
+    558664 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    7646063 unicast packets  14720 multicast packets  8511 broadcast packets
+    7669294 output packets  23293814216 bytes
+    5018133 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/2 is up
+admin state is up, Dedicated Interface
+  Belongs to Po13
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb1 (bia 70ea.1a35.ccb1)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 50679992 bits/sec, 4624 packets/sec
+    30 seconds output rate 6023320 bits/sec, 3953 packets/sec
+    input rate 50.68 Mbps, 4.62 Kpps; output rate 6.02 Mbps, 3.95 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 75672824 bits/sec, 6774 packets/sec
+    300 seconds output rate 11688496 bits/sec, 4298 packets/sec
+    input rate 75.67 Mbps, 6.77 Kpps; output rate 11.69 Mbps, 4.30 Kpps
+  RX
+    6891415 unicast packets  1450 multicast packets  1 broadcast packets
+    6892866 input packets  9232322145 bytes
+    5883221 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4458822 unicast packets  8998 multicast packets  7486 broadcast packets
+    4475306 output packets  2367842809 bytes
+    1098057 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/3 is up
+admin state is up, Dedicated Interface
+  Belongs to Po13
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb2 (bia 70ea.1a35.ccb2)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 11286176 bits/sec, 1327 packets/sec
+    30 seconds output rate 10875200 bits/sec, 2581 packets/sec
+    input rate 11.29 Mbps, 1.33 Kpps; output rate 10.88 Mbps, 2.58 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 10171560 bits/sec, 1250 packets/sec
+    300 seconds output rate 8937736 bits/sec, 2528 packets/sec
+    input rate 10.17 Mbps, 1.25 Kpps; output rate 8.94 Mbps, 2.53 Kpps
+  RX
+    1452734 unicast packets  1161 multicast packets  1129 broadcast packets
+    1455024 input packets  1194828096 bytes
+    611892 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    2589712 unicast packets  10180 multicast packets  22011 broadcast packets
+    2621903 output packets  1440376081 bytes
+    664853 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/4 is up
+admin state is up, Dedicated Interface
+  Belongs to Po13
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb3 (bia 70ea.1a35.ccb3)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 8606856 bits/sec, 1453 packets/sec
+    30 seconds output rate 8578240 bits/sec, 2135 packets/sec
+    input rate 8.61 Mbps, 1.45 Kpps; output rate 8.58 Mbps, 2.13 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 350597856 bits/sec, 9361 packets/sec
+    300 seconds output rate 32345752 bits/sec, 6593 packets/sec
+    input rate 350.60 Mbps, 9.36 Kpps; output rate 32.35 Mbps, 6.59 Kpps
+  RX
+    6880708 unicast packets  1503 multicast packets  1 broadcast packets
+    6882212 input packets  21203642641 bytes
+    3665260 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4251176 unicast packets  8096 multicast packets  4978 broadcast packets
+    4264250 output packets  2364542012 bytes
+    1204003 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/5 is up
+admin state is up, Dedicated Interface
+  Belongs to Po15
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb4 (bia 70ea.1a35.ccb4)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 3245128 bits/sec, 865 packets/sec
+    30 seconds output rate 53752 bits/sec, 34 packets/sec
+    input rate 3.24 Mbps, 865 pps; output rate 53.75 Kbps, 34 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 2903368 bits/sec, 704 packets/sec
+    300 seconds output rate 141720 bits/sec, 32 packets/sec
+    input rate 2.90 Mbps, 704 pps; output rate 141.72 Kbps, 32 pps
+  RX
+    666723 unicast packets  260 multicast packets  0 broadcast packets
+    666983 input packets  312178943 bytes
+    401 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    35707 unicast packets  2826 multicast packets  3330 broadcast packets
+    41863 output packets  11229008 bytes
+    1859 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/6 is up
+admin state is up, Dedicated Interface
+  Belongs to Po15
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb5 (bia 70ea.1a35.ccb5)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 203080 bits/sec, 177 packets/sec
+    30 seconds output rate 53688 bits/sec, 30 packets/sec
+    input rate 203.08 Kbps, 177 pps; output rate 53.69 Kbps, 30 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 195776 bits/sec, 125 packets/sec
+    300 seconds output rate 184888 bits/sec, 20 packets/sec
+    input rate 195.78 Kbps, 125 pps; output rate 184.89 Kbps, 20 pps
+  RX
+    155883 unicast packets  260 multicast packets  0 broadcast packets
+    156143 input packets  22217892 bytes
+    4 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    42541 unicast packets  1693 multicast packets  2869 broadcast packets
+    47103 output packets  14088555 bytes
+    1653 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/7 is up
+admin state is up, Dedicated Interface
+  Belongs to Po15
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb6 (bia 70ea.1a35.ccb6)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 51944 bits/sec, 30 packets/sec
+    30 seconds output rate 233328 bits/sec, 229 packets/sec
+    input rate 51.94 Kbps, 30 pps; output rate 233.33 Kbps, 229 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 42672 bits/sec, 8 packets/sec
+    300 seconds output rate 336312 bits/sec, 159 packets/sec
+    input rate 42.67 Kbps, 8 pps; output rate 336.31 Kbps, 159 pps
+  RX
+    26192 unicast packets  260 multicast packets  0 broadcast packets
+    26452 input packets  4679494 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    173962 unicast packets  2235 multicast packets  8350 broadcast packets
+    184547 output packets  29216299 bytes
+    2157 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/8 is up
+admin state is up, Dedicated Interface
+  Belongs to Po15
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb7 (bia 70ea.1a35.ccb7)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 106064 bits/sec, 41 packets/sec
+    30 seconds output rate 130832 bits/sec, 106 packets/sec
+    input rate 106.06 Kbps, 41 pps; output rate 130.83 Kbps, 106 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 91384 bits/sec, 12 packets/sec
+    300 seconds output rate 22122248 bits/sec, 1892 packets/sec
+    input rate 91.38 Kbps, 12 pps; output rate 22.12 Mbps, 1.89 Kpps
+  RX
+    35807 unicast packets  264 multicast packets  26 broadcast packets
+    36097 input packets  10231483 bytes
+    2737 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    540681 unicast packets  1322 multicast packets  1143 broadcast packets
+    543146 output packets  691779033 bytes
+    442124 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/9 is up
+admin state is up, Dedicated Interface
+  Belongs to Po23
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb8 (bia 70ea.1a35.ccb8)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 33952 bits/sec, 1 packets/sec
+    30 seconds output rate 14232 bits/sec, 1 packets/sec
+    input rate 33.95 Kbps, 1 pps; output rate 14.23 Kbps, 1 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 30264 bits/sec, 3 packets/sec
+    300 seconds output rate 32784 bits/sec, 1 packets/sec
+    input rate 30.26 Kbps, 3 pps; output rate 32.78 Kbps, 1 pps
+  RX
+    4752 unicast packets  260 multicast packets  0 broadcast packets
+    5012 input packets  5247538 bytes
+    1311 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4055 unicast packets  834 multicast packets  2282 broadcast packets
+    7171 output packets  2572246 bytes
+    256 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/10 is up
+admin state is up, Dedicated Interface
+  Belongs to Po23
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccb9 (bia 70ea.1a35.ccb9)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 4216 bits/sec, 0 packets/sec
+    30 seconds output rate 10632 bits/sec, 1 packets/sec
+    input rate 4.22 Kbps, 0 pps; output rate 10.63 Kbps, 1 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 18632 bits/sec, 2 packets/sec
+    300 seconds output rate 37224 bits/sec, 1 packets/sec
+    input rate 18.63 Kbps, 2 pps; output rate 37.22 Kbps, 1 pps
+  RX
+    2158 unicast packets  268 multicast packets  0 broadcast packets
+    2426 input packets  2235228 bytes
+    995 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4158 unicast packets  920 multicast packets  1487 broadcast packets
+    6565 output packets  2555486 bytes
+    538 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/11 is up
+admin state is up, Dedicated Interface
+  Belongs to Po23
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccba (bia 70ea.1a35.ccba)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 3880 bits/sec, 0 packets/sec
+    30 seconds output rate 15704 bits/sec, 10 packets/sec
+    input rate 3.88 Kbps, 0 pps; output rate 15.70 Kbps, 10 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 6872 bits/sec, 1 packets/sec
+    300 seconds output rate 57672 bits/sec, 10 packets/sec
+    input rate 6.87 Kbps, 1 pps; output rate 57.67 Kbps, 10 pps
+  RX
+    1438 unicast packets  268 multicast packets  58 broadcast packets
+    1764 input packets  1185003 bytes
+    378 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4129 unicast packets  1471 multicast packets  6946 broadcast packets
+    12546 output packets  3560579 bytes
+    922 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/12 is up
+admin state is up, Dedicated Interface
+  Belongs to Po23
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccbb (bia 70ea.1a35.ccbb)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 4320 bits/sec, 1 packets/sec
+    30 seconds output rate 7056 bits/sec, 1 packets/sec
+    input rate 4.32 Kbps, 1 pps; output rate 7.06 Kbps, 1 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 21912 bits/sec, 2 packets/sec
+    300 seconds output rate 22084856 bits/sec, 2024 packets/sec
+    input rate 21.91 Kbps, 2 pps; output rate 22.08 Mbps, 2.02 Kpps
+  RX
+    3434 unicast packets  267 multicast packets  0 broadcast packets
+    3701 input packets  4139850 bytes
+    2079 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    453577 unicast packets  553 multicast packets  367 broadcast packets
+    454497 output packets  674187332 bytes
+    439743 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/13 is up
+admin state is up, Dedicated Interface
+  Belongs to Po25
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccbc (bia 70ea.1a35.ccbc)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 23week(s) 5day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 336320 bits/sec, 69 packets/sec
+    30 seconds output rate 304664 bits/sec, 96 packets/sec
+    input rate 336.32 Kbps, 69 pps; output rate 304.66 Kbps, 96 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 210424 bits/sec, 7 packets/sec
+    300 seconds output rate 189472 bits/sec, 25 packets/sec
+    input rate 210.42 Kbps, 7 pps; output rate 189.47 Kbps, 25 pps
+  RX
+    142518 unicast packets  265 multicast packets  0 broadcast packets
+    142783 input packets  138644257 bytes
+    80407 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    133146 unicast packets  770 multicast packets  585 broadcast packets
+    134501 output packets  142761216 bytes
+    85530 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/14 is up
+admin state is up, Dedicated Interface
+  Belongs to Po25
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccbd (bia 70ea.1a35.ccbd)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 23week(s) 5day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 76728 bits/sec, 36 packets/sec
+    30 seconds output rate 96152 bits/sec, 31 packets/sec
+    input rate 76.73 Kbps, 36 pps; output rate 96.15 Kbps, 31 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 79888 bits/sec, 1 packets/sec
+    300 seconds output rate 299920 bits/sec, 13 packets/sec
+    input rate 79.89 Kbps, 1 pps; output rate 299.92 Kbps, 13 pps
+  RX
+    122044 unicast packets  267 multicast packets  0 broadcast packets
+    122311 input packets  127791977 bytes
+    77301 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    205555 unicast packets  792 multicast packets  417 broadcast packets
+    206764 output packets  245040967 bytes
+    141164 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/15 is up
+admin state is up, Dedicated Interface
+  Belongs to Po25
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccbe (bia 70ea.1a35.ccbe)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 23week(s) 5day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 85416 bits/sec, 34 packets/sec
+    30 seconds output rate 94656 bits/sec, 47 packets/sec
+    input rate 85.42 Kbps, 34 pps; output rate 94.66 Kbps, 47 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 86544 bits/sec, 3 packets/sec
+    300 seconds output rate 815176 bits/sec, 76 packets/sec
+    input rate 86.54 Kbps, 3 pps; output rate 815.18 Kbps, 76 pps
+  RX
+    122528 unicast packets  263 multicast packets  438 broadcast packets
+    123229 input packets  123997680 bytes
+    73770 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    45737 unicast packets  1457 multicast packets  1086 broadcast packets
+    48280 output packets  29146520 bytes
+    12664 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/16 is up
+admin state is up, Dedicated Interface
+  Belongs to Po25
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccbf (bia 70ea.1a35.ccbf)
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is fex-fabric
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 23week(s) 5day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 584128 bits/sec, 114 packets/sec
+    30 seconds output rate 104760 bits/sec, 52 packets/sec
+    input rate 584.13 Kbps, 114 pps; output rate 104.76 Kbps, 52 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 813544 bits/sec, 85 packets/sec
+    300 seconds output rate 275848 bits/sec, 37 packets/sec
+    input rate 813.54 Kbps, 85 pps; output rate 275.85 Kbps, 37 pps
+  RX
+    58549 unicast packets  438 multicast packets  81 broadcast packets
+    59068 input packets  45839741 bytes
+    24655 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    197557 unicast packets  460 multicast packets  682 broadcast packets
+    198699 output packets  226127219 bytes
+    139412 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/17 is up
+admin state is up, Dedicated Interface
+  Belongs to Po209
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc0 (bia 70ea.1a35.ccc0)
+  Description: ESXi05-1
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 4week(s) 4day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 31945136 bits/sec, 4933 packets/sec
+    30 seconds output rate 39375144 bits/sec, 4178 packets/sec
+    input rate 31.94 Mbps, 4.93 Kpps; output rate 39.38 Mbps, 4.18 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 25582328 bits/sec, 4058 packets/sec
+    300 seconds output rate 64279920 bits/sec, 6198 packets/sec
+    input rate 25.58 Mbps, 4.06 Kpps; output rate 64.28 Mbps, 6.20 Kpps
+  RX
+    3730642 unicast packets  1037 multicast packets  1274 broadcast packets
+    3732953 input packets  2841752968 bytes
+    886782 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    3821412 unicast packets  27780 multicast packets  19596 broadcast packets
+    3868788 output packets  4628290803 bytes
+    2746237 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/18 is up
+admin state is up, Dedicated Interface
+  Belongs to Po210
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc1 (bia 70ea.1a35.ccc1)
+  Description: ESXi06-1
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 4week(s) 4day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 17440384 bits/sec, 1676 packets/sec
+    30 seconds output rate 9481840 bits/sec, 1301 packets/sec
+    input rate 17.44 Mbps, 1.68 Kpps; output rate 9.48 Mbps, 1.30 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 20597296 bits/sec, 1922 packets/sec
+    300 seconds output rate 36835320 bits/sec, 3537 packets/sec
+    input rate 20.60 Mbps, 1.92 Kpps; output rate 36.83 Mbps, 3.54 Kpps
+  RX
+    1597832 unicast packets  116 multicast packets  1236 broadcast packets
+    1599184 input packets  2040564086 bytes
+    1212040 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    1850274 unicast packets  28699 multicast packets  19634 broadcast packets
+    1898607 output packets  2199913964 bytes
+    1273208 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/19 is up
+admin state is up, Dedicated Interface
+  Belongs to Po212
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc2 (bia 70ea.1a35.ccc2)
+  Description: ORACLE
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 8week(s) 4day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 240 bits/sec, 0 packets/sec
+    30 seconds output rate 22216 bits/sec, 7 packets/sec
+    input rate 240 bps, 0 pps; output rate 22.22 Kbps, 7 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 160 bits/sec, 0 packets/sec
+    300 seconds output rate 21950360 bits/sec, 1792 packets/sec
+    input rate 160 bps, 0 pps; output rate 21.95 Mbps, 1.79 Kpps
+  RX
+    0 unicast packets  81 multicast packets  0 broadcast packets
+    81 input packets  12582 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    451201 unicast packets  2927 multicast packets  6386 broadcast packets
+    461056 output packets  677090893 bytes
+    442580 jumbo packets
+    542 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/20 is up
+admin state is up, Dedicated Interface
+  Belongs to Po213
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc3 (bia 70ea.1a35.ccc3)
+  Description: ORACLE
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 14week(s) 6day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 390664 bits/sec, 329 packets/sec
+    30 seconds output rate 12342440 bits/sec, 1269 packets/sec
+    input rate 390.66 Kbps, 329 pps; output rate 12.34 Mbps, 1.27 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 367928 bits/sec, 257 packets/sec
+    300 seconds output rate 29309304 bits/sec, 2612 packets/sec
+    input rate 367.93 Kbps, 257 pps; output rate 29.31 Mbps, 2.61 Kpps
+  RX
+    274568 unicast packets  84 multicast packets  6 broadcast packets
+    274658 input packets  45051020 bytes
+    1954 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    1234489 unicast packets  2924 multicast packets  6380 broadcast packets
+    1244335 output packets  1547361902 bytes
+    948437 jumbo packets
+    542 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/21 is up
+admin state is up, Dedicated Interface
+  Belongs to Po214
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc4 (bia 70ea.1a35.ccc4)
+  Description: ORACLE
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 5/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 14week(s) 6day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 216352840 bits/sec, 17915 packets/sec
+    30 seconds output rate 2647448 bits/sec, 369 packets/sec
+    input rate 216.35 Mbps, 17.92 Kpps; output rate 2.65 Mbps, 369 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 215187792 bits/sec, 17896 packets/sec
+    300 seconds output rate 4278672 bits/sec, 661 packets/sec
+    input rate 215.19 Mbps, 17.90 Kpps; output rate 4.28 Mbps, 661 pps
+  RX
+    14394456 unicast packets  85 multicast packets  94 broadcast packets
+    14394635 input packets  21592304975 bytes
+    14164468 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    1225855 unicast packets  2923 multicast packets  6292 broadcast packets
+    1235612 output packets  1532577697 bytes
+    949757 jumbo packets
+    542 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/22 is up
+admin state is up, Dedicated Interface
+  Belongs to Po211
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccc5 (bia 70ea.1a35.ccc5)
+  Description: ESXi07-1
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 4week(s) 4day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 5206568 bits/sec, 2180 packets/sec
+    30 seconds output rate 38198440 bits/sec, 4828 packets/sec
+    input rate 5.21 Mbps, 2.18 Kpps; output rate 38.20 Mbps, 4.83 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 5857048 bits/sec, 2408 packets/sec
+    300 seconds output rate 54072152 bits/sec, 6149 packets/sec
+    input rate 5.86 Mbps, 2.41 Kpps; output rate 54.07 Mbps, 6.15 Kpps
+  RX
+    2270858 unicast packets  365 multicast packets  2964 broadcast packets
+    2274187 input packets  827560572 bytes
+    269195 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    4295241 unicast packets  28449 multicast packets  17906 broadcast packets
+    4341596 output packets  4240945254 bytes
+    2311905 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/23 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccc6)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/24 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccc7)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/25 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccc8)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/26 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccc9)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/27 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccca)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/28 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.cccb)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/29 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.cccc)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/30 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.cccd)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/31 is up
+admin state is up, Dedicated Interface
+  Belongs to Po220
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccce (bia 70ea.1a35.ccce)
+  Description: MLP-FASQL-DB01 PRODUCTIV
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is access
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 10week(s) 1day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 2487008 bits/sec, 391 packets/sec
+    30 seconds output rate 634984 bits/sec, 1221 packets/sec
+    input rate 2.49 Mbps, 391 pps; output rate 634.98 Kbps, 1.22 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 5269968 bits/sec, 631 packets/sec
+    300 seconds output rate 603680 bits/sec, 1104 packets/sec
+    input rate 5.27 Mbps, 631 pps; output rate 603.68 Kbps, 1.10 Kpps
+  RX
+    6020454 unicast packets  54 multicast packets  0 broadcast packets
+    6020508 input packets  8800526103 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    1103632 unicast packets  1310 multicast packets  14 broadcast packets
+    1104956 output packets  71429547 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/32 is down (suspended(no LACP PDUs))
+admin state is up, Dedicated Interface
+  Belongs to Po221
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.cccf (bia 70ea.1a35.cccf)
+  Description: MLP-FASQL-DB01 BACKUP
+  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is access
+  auto-duplex, auto-speed, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 10week(s) 1day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 712 bits/sec, 0 packets/sec
+    30 seconds output rate 64 bits/sec, 0 packets/sec
+    input rate 712 bps, 0 pps; output rate 64 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 672 bits/sec, 0 packets/sec
+    300 seconds output rate 48 bits/sec, 0 packets/sec
+    input rate 672 bps, 0 pps; output rate 48 bps, 0 pps
+  RX
+    0 unicast packets  54 multicast packets  0 broadcast packets
+    54 input packets  9126 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  40 multicast packets  0 broadcast packets
+    40 output packets  7369 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/33 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd0)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/34 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd1)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/35 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd2)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/36 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd3)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/37 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd4)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/38 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd5)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/39 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd6)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/40 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd7)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/41 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd8)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/42 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccd9)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/43 is down (XCVR not inserted)
+admin state is down, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccda)
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/44 is down (XCVR not inserted)
+admin state is up, Dedicated Interface
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccdb (bia 70ea.1a35.ccdb)
+  Description: NetAPP
+  MTU 1500 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is access
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/45 is down (XCVR not inserted)
+admin state is up, Dedicated Interface
+  Belongs to Po3
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccdc (bia 70ea.1a35.ccdc)
+  Description: to-SUS27-N9K
+  MTU 9216 bytes, BW 25000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  auto-duplex, auto-speed
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped 20week(s) 2day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/46 is up
+admin state is up, Dedicated Interface
+  Belongs to Po3
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccdd (bia 70ea.1a35.ccdd)
+  Description: to-SUS27-N9K
+  MTU 9216 bytes, BW 10000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 9/255, rxload 5/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 10 Gb/s, media type is 10G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 22week(s) 6day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 217754896 bits/sec, 34724 packets/sec
+    30 seconds output rate 354491200 bits/sec, 37082 packets/sec
+    input rate 217.75 Mbps, 34.72 Kpps; output rate 354.49 Mbps, 37.08 Kpps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 241811704 bits/sec, 37858 packets/sec
+    300 seconds output rate 368874000 bits/sec, 38485 packets/sec
+    input rate 241.81 Mbps, 37.86 Kpps; output rate 368.87 Mbps, 38.49 Kpps
+  RX
+    35947339 unicast packets  53425 multicast packets  43612 broadcast packets
+    36044376 input packets  29475574024 bytes
+    11250379 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    41415652 unicast packets  6321 multicast packets  7156 broadcast packets
+    41429129 output packets  49638775658 bytes
+    30183860 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/47 is up
+admin state is up, Dedicated Interface
+  Belongs to Po100
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccde)
+  Description: Peer-keepalive-link
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  full-duplex, 1000 Mb/s, media type is 1G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 648 bits/sec, 0 packets/sec
+    30 seconds output rate 648 bits/sec, 0 packets/sec
+    input rate 648 bps, 0 pps; output rate 648 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 648 bits/sec, 1 packets/sec
+    300 seconds output rate 648 bits/sec, 1 packets/sec
+    input rate 648 bps, 1 pps; output rate 648 bps, 1 pps
+  RX
+    811 unicast packets  40 multicast packets  0 broadcast packets
+    851 input packets  74014 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    811 unicast packets  40 multicast packets  0 broadcast packets
+    851 output packets  73793 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/48 is up
+admin state is up, Dedicated Interface
+  Belongs to Po100
+  Hardware: 100/1000/10000/25000 Ethernet, address: 70ea.1a35.ccaf (bia 70ea.1a35.ccdf)
+  Description: Peer-keepalive-link
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  full-duplex, 1000 Mb/s, media type is 1G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 29week(s) 3day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 64 bits/sec, 0 packets/sec
+    30 seconds output rate 64 bits/sec, 0 packets/sec
+    input rate 64 bps, 0 pps; output rate 64 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 48 bits/sec, 0 packets/sec
+    300 seconds output rate 72 bits/sec, 0 packets/sec
+    input rate 48 bps, 0 pps; output rate 72 bps, 0 pps
+  RX
+    0 unicast packets  40 multicast packets  0 broadcast packets
+    40 input packets  7512 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  40 multicast packets  0 broadcast packets
+    40 output packets  7291 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/49 is up
+admin state is up, Dedicated Interface
+  Belongs to Po300
+  Hardware: 1000/10000/25000/40000/50000/100000 Ethernet, address: 70ea.1a35.cce0 (bia 70ea.1a35.cce0)
+  Description: PORT-CHANNEL-300
+  MTU 1500 bytes, BW 40000000 Kbit, DLY 10 usec
+  reliability 254/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 40 Gb/s, media type is 40G
+  Beacon is turned off
+  Auto-Negotiation is turned off  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 20week(s) 2day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 64 bits/sec, 0 packets/sec
+    30 seconds output rate 233720 bits/sec, 78 packets/sec
+    input rate 64 bps, 0 pps; output rate 233.72 Kbps, 78 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 32 bits/sec, 0 packets/sec
+    300 seconds output rate 23245704 bits/sec, 1993 packets/sec
+    input rate 32 bps, 0 pps; output rate 23.25 Mbps, 1.99 Kpps
+  RX
+    11 unicast packets  27 multicast packets  0 broadcast packets
+    38 input packets  4194 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    505647 unicast packets  27472 multicast packets  14861 broadcast packets
+    551458 output packets  735313296 bytes
+    464758 jumbo packets
+    3478 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/50 is down (Link not connected)
+admin state is up, Dedicated Interface
+  Belongs to Po230
+  Hardware: 1000/10000/25000/40000/50000/100000 Ethernet, address: 70ea.1a35.cce4 (bia 70ea.1a35.cce4)
+  Description: MEGACLUSTER NETAPP-1
+  MTU 1500 bytes, BW 100000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  auto-duplex, auto-speed, media type is 100G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/51 is down (Link not connected)
+admin state is up, Dedicated Interface
+  Belongs to Po231
+  Hardware: 1000/10000/25000/40000/50000/100000 Ethernet, address: 70ea.1a35.cce8 (bia 70ea.1a35.cce8)
+  Description: MEGACLUSTER NETAPP-2
+  MTU 1500 bytes, BW 100000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  auto-duplex, auto-speed, media type is 100G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is auto
+  Last link flapped never
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 0 bits/sec, 0 packets/sec
+    30 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 0 bits/sec, 0 packets/sec
+    300 seconds output rate 0 bits/sec, 0 packets/sec
+    input rate 0 bps, 0 pps; output rate 0 bps, 0 pps
+  RX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 input packets  0 bytes
+    0 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  0 multicast packets  0 broadcast packets
+    0 output packets  0 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
+Ethernet1/52 is up
+admin state is up, Dedicated Interface
+  Belongs to Po2
+  Hardware: 1000/10000/25000/40000/50000/100000 Ethernet, address: 70ea.1a35.ccec (bia 70ea.1a35.ccec)
+  Description: UPLINK-to-Core
+  MTU 1500 bytes, BW 40000000 Kbit, DLY 10 usec
+  reliability 255/255, txload 1/255, rxload 2/255
+  Encapsulation ARPA, medium is broadcast
+  Port mode is trunk
+  full-duplex, 40 Gb/s, media type is 40G
+  Beacon is turned off
+  Auto-Negotiation is turned on  FEC mode is Auto
+  Input flow-control is off, output flow-control is off
+  Auto-mdix is turned off
+  Rate mode is dedicated
+  Switchport monitor is off 
+  EtherType is 0x8100 
+  EEE (efficient-ethernet) : n/a
+    admin fec state is auto, oper fec state is off
+  Last link flapped 26week(s) 1day(s)
+  Last clearing of "show interface" counters 00:13:31
+  0 interface resets
+  Load-Interval #1: 30 seconds
+    30 seconds input rate 330083920 bits/sec, 47296 packets/sec
+    30 seconds output rate 64 bits/sec, 0 packets/sec
+    input rate 330.08 Mbps, 47.30 Kpps; output rate 64 bps, 0 pps
+  Load-Interval #2: 5 minute (300 seconds)
+    300 seconds input rate 256232584 bits/sec, 41539 packets/sec
+    300 seconds output rate 32 bits/sec, 0 packets/sec
+    input rate 256.23 Mbps, 41.54 Kpps; output rate 32 bps, 0 pps
+  RX
+    32331179 unicast packets  91597 multicast packets  76830 broadcast packets
+    32499606 input packets  24078113011 bytes
+    5243222 jumbo packets  0 storm suppression bytes
+    0 runts  0 giants  0 CRC  0 no buffer
+    0 input error  0 short frame  0 overrun   0 underrun  0 ignored
+    0 watchdog  0 bad etype drop  0 bad proto drop  0 if down drop
+    0 input with dribble  0 input discard
+    0 Rx pause
+  TX
+    0 unicast packets  40 multicast packets  0 broadcast packets
+    40 output packets  7421 bytes
+    0 jumbo packets
+    0 output error  0 collision  0 deferred  0 late collision
+    0 lost carrier  0 no carrier  0 babble  0 output discard
+    0 Tx pause
+
